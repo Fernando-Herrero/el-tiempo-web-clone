@@ -1,0 +1,379 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family:"Poppins", "Roboto Condensed",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, li,
+figure, figcaption,
+blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* A partir de aquí introduce tus estilos */
+
+body {
+    background-color: white;
+}
+header {
+    margin-bottom: 40px;
+}
+.background-gray {
+    background-color: rgb(202, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    gap: 20px ;
+}
+#div-meteorology {
+    padding-right: 10px;
+    border-right: 1px solid #464545;
+}
+.header-div-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header p {
+    color: #535252;
+    font-size: 12px;
+    font-weight: 500;
+}
+header h5 {
+    font-size: 10px;
+    color: #a4a4a4;
+}
+header a {
+    font-size: 10px;
+    color: #535252;
+    padding-right: 10px;
+    border-right: 1px solid #464545;
+}
+.background-nav {
+    background-color: #06AEEF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.label-button {
+    display: flex;
+    align-items: center;
+}
+header input {
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    padding: 10px 100px  10px 40px;
+}
+header button {
+    border-radius: 30px;
+    background-color: white;
+    border: 0;
+    position: relative;
+    left: -43px;
+}
+.img-mag {
+    width: 32px;
+    padding: 5px
+}
+main {
+    padding-bottom: 30px;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+#section-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.container-section-one {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.div-text-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#special-one {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#second-one {
+    display: flex;
+}
+.strong {
+    font-weight: 600;
+}
+#alone-text {
+    font-weight: 600;
+    color: #06AEEF;
+}
+.numbers {
+    font-size: 13px;
+    color: #a4a4a4;
+}
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.div-main-text {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+main h3 {
+    padding-bottom: 3px;
+    border-bottom: 3px solid #06AEEF;
+}
+.div-main-container {
+    display: flex;
+    gap: 30px;
+}
+.sub-div-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #F4F5F7;
+    padding: 10px 10px;
+    box-shadow: 0px 2px #c4c4c4;
+    width: 50%;
+}
+.third-div-main-container {
+    display: flex;
+    gap: 20px;
+}
+.div-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.last-div-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-white {
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    gap: 5px;
+    box-shadow: 0px 2px #c4c4c4;
+}
+
+.small {
+    font-size: small;
+}
+.alone-h5 {
+    border-bottom: 1px solid #c4c4c4;
+}
+.width {
+    width: 50%;
+}
+.community {
+    padding: 5px 5px;
+    gap: 5px;
+}
+.colour {
+    color: white;
+    background-color: #4d2072;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.article-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 0px 2px hsl(0, 0%, 77%);
+    border-radius: 5px;
+    flex: 1;
+}
+#circulo {
+    height: 10px;
+    width: 10px;
+    background-color: #06AEEF;
+    border-radius: 50%;
+}
+#margin {
+    margin-top: -70px;
+    padding-bottom: 16px;
+    padding-left: 7px;
+    position: relative;
+}
+.container-article {
+    display: flex;
+    gap: 20px;
+}
+#width {
+    width: 100%;
+    border-radius: 5px;
+}
+.article-one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px 10px 10px;
+}
+.meteorology {
+    color: #9d9d9d;
+}
+.paragraph {
+    font-weight: 600;
+}
+.p-span {
+    display: flex;
+    gap: 5px;
+    font-size: small;
+}
+.span {
+    border-left: 1px solid #9d9d9d;
+    padding-left: 5px;
+    color: #9d9d9d;
+}
+.img-text {
+    display: flex;
+    align-items: flex-start;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.border {
+    border-bottom: none;
+}
+.padding-p {
+    padding-top: 30px;
+}
+.padding {
+    padding-top: 60px;
+}
+#section-three {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.article-img-third-section {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 0px 2px hsl(0, 0%, 77%);
+    border-radius: 5px;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-1 {
+    flex: 1;
+}
+.border-left {
+    border-left: 1px solid #c4c4c4;
+}
+
+.footer-one {
+    background-color: #F4F5F7;
+    padding-bottom: 30px;
+}
+footer h3 {
+    font-weight: 500;
+    color: #6e6e6e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6e6e6e;
+}
+.footer-div {
+    display: flex;
+    padding-top: 20px;
+}
+.column-1 {
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #6e6e6e;
+}
+footer li {
+    padding-bottom: 10px;
+    color: #6e6e6e;
+}
+.footer-two {
+    background-color: #06AEEF;
+}
+.footer-div-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.div-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-two p {
+    color: white;
+}
+footer button {
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    background-color: #06aeef;
+    padding: 10px 20px;
+}
+.div-img-countries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-two a {
+    color: white;
+    font-size: small;
+    padding-right: 20px;
+}
+#img {
+    padding-right: 20px;
+}
+.last-footer-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
