@@ -373,6 +373,12 @@ footer button {
     justify-content: space-between;
     align-items: center;
 }
+.links-mobile {
+    display: none;
+}
+.links-desktop {
+    display: inherit;
+}
 .footer-two a {
     color: white;
     font-size: small;
@@ -434,5 +440,30 @@ footer button {
     }
     .article-img-third-section {
         flex-direction: column;
+    }
+    .footer-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .column-2 {
+        border-left: none;
+    }
+    .border {
+        border-bottom: 1px solid rgb(173, 170, 170);
+    }
+    .footer-div-container {
+        flex-direction: column;
+    }
+    .links-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    
+    }
+    .links-desktop {
+        display: none;
+    }
+    .last-footer-div {
+        display: none;
     }
 }
