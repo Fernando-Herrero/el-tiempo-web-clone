@@ -416,5 +416,23 @@ footer button {
     .container {
         width: 90%;
     }
-
+    .div-main-container {
+        flex-direction: column;
+        width: 830px;
+    }
+    h3 {
+        text-align: center;
+    }
+    .h5-mobile-center {
+        text-align: center;
+    }
+    .container-article {
+        flex-direction: column;
+    }
+    #section-three {
+        flex-direction: column;
+    }
+    .article-img-third-section {
+        flex-direction: column;
+    }
 }
