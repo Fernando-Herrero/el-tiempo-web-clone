@@ -72,6 +72,12 @@ header a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+#normal-logo {
+    display: inherit;
+}
+#mobile-logo {
+    display: none;
+}
 .label-button {
     display: flex;
     align-items: center;
@@ -379,4 +385,13 @@ footer button {
 }
 @media only screen and (max-width: 480px) {
     
+    #normal-logo {
+        display: none;
+    }
+    #mobile-logo {
+        display: inherit;
+    }
+    .background-nav {
+        padding-right: 10px;
+    }
 }
