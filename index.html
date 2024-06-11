@@ -63,6 +63,19 @@
     <main>
 
         <section id="section-one" class="container">
+            <form action="#">
+                <label for="days">
+                    <select name="days" id="days">
+                        <option value="hoy" selected>Hoy</option>
+                        <option value="hoy-1">Mañana</option>
+                    </select>
+                </label>
+                <label for="time">
+                    <select name="time" id="time">
+                        <option value="now">Ahora</option>
+                    </select>
+                </label>
+            </form>
             <div class="container-section-one">
                 <div>
                     <img src="/images/arrows/flecha-gris-izquierda.png" height="20px"
@@ -136,7 +149,7 @@
                 </div>
             </div>
             <div>
-                <img src="/images/mapa-eltiempo.png" alt="mapa de España de el tiempo">
+                <img class="map-mobile" src="/images/mapa-eltiempo.png" alt="mapa de España de el tiempo">
             </div>
         </section>
         <section class="section-two container">

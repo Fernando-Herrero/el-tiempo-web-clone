@@ -117,6 +117,9 @@ main {
     align-items: center;
     gap: 20px;
 }
+.container form {
+    display: none;
+}
 .div-text-map {
     display: flex;
     flex-direction: column;
@@ -394,4 +397,24 @@ footer button {
     .background-nav {
         padding-right: 10px;
     }
+    form {
+        display: flex;
+        gap: 20px;
+    }
+    .container-section-one {
+        display: none;
+    }
+    .container form {
+        display: inherit;
+    }
+    .container select {
+        padding: 10px 80px 10px 5px;
+    }
+    .map-mobile {
+        width: 415px;
+    }
+    .container {
+        width: 90%;
+    }
+
 }
