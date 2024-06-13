@@ -399,16 +399,29 @@ footer button {
     }
     #mobile-logo {
         display: inherit;
-        animation: move 2s linear 0.5s;
+        animation: 
+            move 2s linear 0.5s,
+            grow 2s linear 0.5s;
     }
     @keyframes move {
         from {
             opacity: .3;
-            transform: translateX(-10px);
+            transform: translateX(-50px);
         }
         to {
             opacity: 1;
             transform: translateX(0);
+        }
+    }
+    @keyframes grow {
+        0% {
+            scale: 0;
+        }
+        50% {
+            scale: 0.5;
+        }
+        100% {
+            scale: 1;
         }
     }
     .background-nav {
