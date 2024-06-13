@@ -399,6 +399,17 @@ footer button {
     }
     #mobile-logo {
         display: inherit;
+        animation: move 2s linear 0.5s;
+    }
+    @keyframes move {
+        from {
+            opacity: .3;
+            transform: translateX(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
     .background-nav {
         padding-right: 10px;
