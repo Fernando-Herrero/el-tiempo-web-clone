@@ -460,6 +460,9 @@ footer button {
         justify-content: flex-start;
         padding: 5px;
     }
+    header input {
+        padding: 10px 50px 10px 20px;
+    }
     form {
         display: flex;
         gap: 20px;
