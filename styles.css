@@ -186,6 +186,12 @@ main h3 {
     gap: 5px;
     padding: 5px;
 }
+
+.div-icons img {
+    width: 24px;
+    height: 24px;
+}
+
 .last-div-main {
     display: flex;
     align-items: center;
