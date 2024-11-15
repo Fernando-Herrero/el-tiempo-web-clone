@@ -4,7 +4,7 @@
 Este ejercicio consiste en crear una réplica de la web de pronóstico del tiempo siguiendo el diseño proporcionado en PDF. La finalidad es lograr una copia *pixel-perfect* utilizando Flexbox y otros conceptos avanzados de CSS y HTML. Se busca que el diseño final sea lo más fiel posible al archivo de referencia, simulando el proceso real de trabajo en una empresa.
 
 ## Live Preview
-[![Live Preview](URL de la imagen si tienes una)](URL de la live preview)  
+![Mapa del Tiempo](/docs/eltiempo.png) 
 
 Mi resultado: [Live Preview](https://eltiempo-project.netlify.app)
 
@@ -12,7 +12,6 @@ Pongo un enlace a la web orginal, aun que no la consulte para realizar este ejer
 
 Fuente original: [Enlace a web original](https://web.archive.org/web/20240720005816/https://www.eltiempo.es/)
 
-![Mapa del Tiempo](/images/mapa-eltiempo.png)
 
 ## Tecnologías Usadas
 - **HTML5** - Estructura y marcado de la web.
@@ -34,7 +33,7 @@ El ejercicio tiene los siguientes objetivos:
 ### Estructura del Proyecto
 - **index.html**: Archivo de estructura principal de la web.
 - **styles.css**: Archivo de estilos donde se aplican las propiedades de Flexbox, tipografías y demás estilos visuales.
-- **Carpeta recursos**: Contiene el PDF de referencia y la imagen de vista previa.
+- **Carpeta resultados**: Contiene el PDF de referencia y la imagen de vista previa.
 - **Carpeta images**: Incluye todas las imágenes necesarias para la web, incluyendo el mapa estático.
 
 ### Tipografías
